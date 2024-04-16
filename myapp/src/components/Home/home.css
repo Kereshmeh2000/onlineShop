@@ -1,0 +1,161 @@
+
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  .margin{
+    margin-top: 160px;
+  }
+  .margin2{
+    margin-top: 80px;
+  }
+  
+  .iconCss{
+      color:  #0D6EFD;
+      font-size: 55px;
+      background-color: #ebeafb;
+      padding: 5px 13px;
+      border-radius: 10px;
+  }
+  .my-card{
+      background-color: #1b2a4e !important;  
+  }
+  .my-card-body{
+      color: white;
+  }
+  .my-card-icone{
+      width: 18%;
+      margin-left: 143px;
+  }
+  .gallery-section{
+      background-color: #1b2a4e;
+  }
+  
+  
+
+  
+
+  .category-menu-btn{
+      border: 0.5px solid #4270A3;
+      color: #ffff;
+      font-size: 16px;
+      text-align: center;
+  }
+
+  .services-car-btn{
+      background-color: #1149DA;
+      margin-left: 10px;
+  }
+  .agahi{
+      background-color: #FF4F00;
+      margin-left: 10px;
+  }
+
+  
+  /* responsive menu //////////////////////////////////////////////////////// */
+  
+  
+
+    #side-navigation-drawer {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: white;
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+    
+   
+   .swiper-slide img{
+    width: 50%;
+    height: 100%;
+   }
+
+   .mySwiper {
+    width: 240px;
+    height: 320px;
+  }
+  
+  .swiper-slidee {
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  
+  .swiper-slide {
+    display: flex;
+    padding: 10px;
+    border-radius: 18px;
+    color: #fff;
+  }
+  
+  .child1{
+    background-color: #1b2a4e;
+  }
+  
+  .child2 {
+    background-color: #1e2f97;
+  }
+  
+  .child3{
+    background-color: #0d6efd;
+  }
+  
+  .child4{
+    background-color: #4adede;
+  }
+  
+  .child5{
+    background-color: rgb(0, 68, 255);
+  }
+  
+  .child6{
+    background-color: #797ef6;
+  }
+  
+  .swiper-personalization{
+    text-align: center;
+
+  }
+
+
+  /* waves styles //////////////////////////////////////////////////////*/
+
+  .wave1{
+    height: 150px;
+    overflow: hidden
+  }
+  .svg1{
+    height: 100%;
+    width: 100%
+  }
+  .path1{
+    stroke: none; 
+    fill: #f8f9fa
+  }
+  .path2{
+    stroke: none; 
+    fill: #1b2a4e
+  }
+
+  .swiper{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+  

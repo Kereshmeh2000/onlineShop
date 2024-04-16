@@ -1,0 +1,22 @@
+.wave1{
+    height: 150px;
+    overflow: hidden
+  }
+  .svg1{
+    height: 100%;
+    width: 100%
+  }
+  .path1{
+    stroke: none; 
+    fill: #f8f9fa
+  }
+.footer-title{
+    border-bottom: 2px solid black;
+    line-height: 40px;
+}
+.footer-item{
+    cursor: pointer;
+}
+footer{
+    background-color: #f8f9fa;
+}

@@ -1,0 +1,15 @@
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.cart-btn{
+    border: 1px solid gray !important;
+}
+.cart-btn:hover{
+    background-color: rgb(27, 27, 27) !important;
+    color: white !important;
+}
+.cart-img {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+}

@@ -1,0 +1,54 @@
+.bg{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url('../images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 80px;
+    color: white;
+}
+.header-title{
+    font-size: 50px !important;
+}
+@media only screen and (min-width: 300px) and (max-width: 654px){
+    .header-title{
+        font-size: 30px !important;
+    }
+    .bg{
+        padding: 80px !important;
+    }
+  }
+.form-item{
+    width: 100%;
+    padding: 5px 0;
+    margin: 5px 0 !important;
+    border: none;
+    border-bottom: 4px solid rgb(171, 212, 232);
+}
+.input-file{
+    margin-left: 75px;
+}
+input:focus, textarea:focus {
+    background-color: rgb(241, 250, 253);
+    outline: none;
+    border: 1px solid rgb(237, 237, 237);
+}
+textarea{
+    resize: none !important;
+}
+@media only screen and (min-width: 200px) and (max-width: 770px){
+ .input-file{
+    margin-left: 0;
+ }
+ .contact-box{
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+ .contact-section{
+    box-shadow: none !important;
+ }
+}
+@media only screen and (min-width: 771px) and (max-width: 1600px){
+    .contact-section{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     }
+}
